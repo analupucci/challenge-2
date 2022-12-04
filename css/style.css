@@ -17,19 +17,34 @@ body {
   justify-content: center;
 }
 
-.navBar h1 {
+h1 {
   width: 25%;
   font-weight: 500;
   display:flex;
+  padding: 30px;
+
+  
 }
 
-p {
+.navBar a {
   cursor: pointer;
   text-decoration: none;
   display: flex;
   flex-direction: row;
+  padding: 30px;
+}
+.hero-banner h2 {
+  padding: 30px;
 }
 
+.hero-banner {
+  background-image: url(./challenge-2/images/pexels-nubia-navarro-\(nubikini\)-714912.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+}
 h1,
 h2,
 h3,
