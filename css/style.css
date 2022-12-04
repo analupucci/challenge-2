@@ -7,7 +7,28 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-}street-fashion
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 0 5%;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.navBar h1 {
+  width: 25%;
+  font-weight: 500;
+  display:flex;
+}
+
+p {
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
 
 h1,
 h2,
@@ -21,6 +42,12 @@ h6 {
 p {
   margin: 0;
 }
-img {
-  src: ;
+.page-section {
+  display: grid;
+}
+.missing-piece {
+  background-image: url(./images/pexels-ann-h-3482442.jpg);
+}
+.organic-farm {
+  background-image: url(./images/pexels-engin-akyurt-1435895.jpg);
 }
