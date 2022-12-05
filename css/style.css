@@ -52,11 +52,16 @@ h1 {
 
 .missing-piece {
   background-image: url(../images/pexels-ann-h-3482442.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: left;
   height: 250px;
   width: 400px;
   margin-bottom: 20px;
+}
+
+.head-shot {
+  position: relative;
+  left: 583px;
 }
 h1,
 h2,
