@@ -68,31 +68,39 @@ p {
   margin: 0;
 }
 .page-section {
-  display: grid;
+
   padding: 30px;
 }
 
-.missing-piece {
+#missing-piece {
   background-image: url(../images/pexels-ann-h-3482442.jpg);
 }
-.organic-farm {
+#organic-farm {
   background-image: url(../images/pexels-engin-akyurt-1435895.jpg);
 }
-.street-fashion {
+#street-fashion {
   background-image: url(../images/pexels-godisable-jacob-1013326.jpg);
 }
-.gummy-bears {
+#gummy-bears {
   background-image: url(../images/pexels-pixabay-55825.jpg);
 }
-.life-city {
+#life-city {
   background-image: url(../images/pexels-pixabay-417023.jpg);
 }
-#images {
+.work {
   background-size: cover;
   background-position: left;
   height: 250px;
   width: 400px;
   margin-bottom: 20px;
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "life-city life-city"
+  "missing-piece gummy-bears"
+  "street-fashion organic-farm";
 }
 #images h3 {
   ba
