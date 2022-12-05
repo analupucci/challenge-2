@@ -14,7 +14,7 @@ body {
   flex-direction: row;
   margin: 0 5%;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: right;
 }
 
 h1 {
@@ -22,8 +22,7 @@ h1 {
   font-weight: 500;
   display:flex;
   padding: 30px;
-
-  
+  justify-content: left;  
 }
 
 .navBar a {
@@ -35,15 +34,29 @@ h1 {
 }
 .hero-banner h2 {
   padding: 30px;
+  position: relative;
+  top: 50px;
+  left: 300px;
+  float: left;
+  color: aliceblue;
 }
 
 .hero-banner {
-  background-image: url(./challenge-2/images/pexels-nubia-navarro-\(nubikini\)-714912.jpg);
+  background-image: url(../images/pexels-nubia-navarro-\(nubikini\)-714912.jpg);
   background-size: cover;
   background-position: top;
-  height: 800px;
+  height: 200px;
   width: 100%;
   margin-bottom: 25px;
+}
+
+.missing-piece {
+  background-image: url(../images/pexels-ann-h-3482442.jpg);
+  background-size: contain;
+  background-position: left;
+  height: 250px;
+  width: 400px;
+  margin-bottom: 20px;
 }
 h1,
 h2,
@@ -59,6 +72,7 @@ p {
 }
 .page-section {
   display: grid;
+  padding: 30px;
 }
 .missing-piece {
   background-image: url(./images/pexels-ann-h-3482442.jpg);
