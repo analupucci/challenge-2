@@ -32,14 +32,6 @@ h1 {
   flex-direction: row;
   padding: 30px;
 }
-.hero-banner h2 {
-  padding: 30px;
-  position: relative;
-  top: 50px;
-  left: 300px;
-  float: left;
-  color: aliceblue;
-}
 
 .hero-banner {
   background-image: url(../images/pexels-nubia-navarro-\(nubikini\)-714912.jpg);
@@ -50,13 +42,13 @@ h1 {
   margin-bottom: 25px;
 }
 
-.missing-piece {
-  background-image: url(../images/pexels-ann-h-3482442.jpg);
-  background-size: cover;
-  background-position: left;
-  height: 250px;
-  width: 400px;
-  margin-bottom: 20px;
+.hero-banner h2 {
+  padding: 30px;
+  position: relative;
+  top: 50px;
+  left: 300px;
+  float: left;
+  color: aliceblue;
 }
 
 .head-shot {
@@ -79,10 +71,33 @@ p {
   display: grid;
   padding: 30px;
 }
+
 .missing-piece {
   background-image: url(../images/pexels-ann-h-3482442.jpg);
-  background-size: cover;
 }
 .organic-farm {
-  background-image: url(./images/pexels-engin-akyurt-1435895.jpg);
+  background-image: url(../images/pexels-engin-akyurt-1435895.jpg);
+}
+.street-fashion {
+  background-image: url(../images/pexels-godisable-jacob-1013326.jpg);
+}
+.gummy-bears {
+  background-image: url(../images/pexels-pixabay-55825.jpg);
+}
+.life-city {
+  background-image: url(../images/pexels-pixabay-417023.jpg);
+}
+#images {
+  background-size: cover;
+  background-position: left;
+  height: 250px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+#images h3 {
+  ba
+}
+
+.page-wrapper img {
+  border: 30px;
 }
