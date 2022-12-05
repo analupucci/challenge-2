@@ -80,7 +80,8 @@ p {
   padding: 30px;
 }
 .missing-piece {
-  background-image: url(./images/pexels-ann-h-3482442.jpg);
+  background-image: url(../images/pexels-ann-h-3482442.jpg);
+  background-size: cover;
 }
 .organic-farm {
   background-image: url(./images/pexels-engin-akyurt-1435895.jpg);
