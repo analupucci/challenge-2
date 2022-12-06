@@ -1,13 +1,15 @@
 * {
   box-sizing: border-box;
 }
-
+header {
+  background-color: #84a98c;
+}
 body {
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  background-color: #eae2b7;
+  background-color: #f2e8cf;
 }
 
 .navBar {
@@ -15,7 +17,7 @@ body {
   flex-direction: row;
   margin: 0 5%;
   align-items: flex-end;
-  justify-content: right;
+  justify-content: center;
 }
 
 h1 {
@@ -23,8 +25,8 @@ h1 {
   font-weight: 500;
   display:flex;
   padding: 30px;
-  justify-content: left;
-  color: #e76f51;  
+  justify-content: center;
+  color: #e9edc9;  
 }
 
 .navBar a {
@@ -33,7 +35,7 @@ h1 {
   display: flex;
   flex-direction: row;
   padding: 30px;
-  color: ;
+  color: #fcbf49;
 }
 
 .hero-banner {
@@ -108,6 +110,10 @@ p {
   "gummy-bears missing-piece";
 }
 
+#work > *:nth-child(3n-1):nth-last-of-type(1) {
+  grid-column: span 2;
+}
+
 .work {
   background-position: center;
   background-size: cover;
@@ -116,15 +122,15 @@ p {
   cursor: pointer;
   display: grid;
   align-content: end;
-  height: 150px;
+  height: 400px;
 }
   .heading {
     background-color: rgba(0,0,0,0.7);
-    padding: 20px;
+    padding: 30px;
     height: 25px;
     color: white;
     font-size: 18px;
-    border-bottom: 5px solid #f4a261;
+    border-bottom: 5px solid #2a9d8f;
   }
 .page-wrapper img {
   border: 30px;
