@@ -10,15 +10,15 @@ The portfolio has a top menu in the navigation bar that the user to the differen
 
 ## Screenshots
 
-```md
 ![Header of the Page](images/Screenshot%202022-12-06%20at%2013.30.33.png)
-``
-```md
+
+
 ![About Me](images/Screenshot%202022-12-06%20at%2013.30.53.png)
-``
-```md
+
+
 ![My projects](images/Screenshot%202022-12-06%20at%2013.31.11.png)
-``
-```md
+
+
 ![Contacts](images/Screenshot%202022-12-06%20at%2013.31.23.png)
-``
+
+## Deployed link
