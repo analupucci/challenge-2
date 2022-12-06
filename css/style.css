@@ -114,14 +114,15 @@ p {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
-  "life-city life-city"
+  "life-city"
   "organic-farm street-fashion"
   "gummy-bears missing-piece";
 }
 
-#work > *:nth-child(3n-1):nth-last-of-type(1) {
+#work > *:first-child {
   grid-column: span 2;
 }
+
 
 .work {
   background-position: center;
