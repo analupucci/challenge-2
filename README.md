@@ -22,3 +22,5 @@ The portfolio has a top menu in the navigation bar that the user to the differen
 ![Contacts](images/Screenshot%202022-12-06%20at%2013.31.23.png)
 
 ## Deployed link
+
+https://analupucci.github.io/challenge-2/
