@@ -149,12 +149,26 @@ p {
   cursor: pointer;
   text-decoration: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 30px;
   color: #fcbf49;
   align-items: baseline;
   justify-content: space-around;
 }
 
+@media only screen and (max-width: 1000px) {
+  #work {
+    display: inline;
+  }
+  .icons {
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #headline {
+    position: static;
+    margin: 20px;
+  }
 
 
