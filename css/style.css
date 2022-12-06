@@ -24,9 +24,10 @@ h1 {
   width: 25%;
   font-weight: 500;
   display:flex;
-  padding: 30px;
+  padding: 20px;
   justify-content: center;
   color: #e9edc9;  
+  align-items: baseline;
 }
 
 .navBar a {
@@ -36,10 +37,11 @@ h1 {
   flex-direction: row;
   padding: 30px;
   color: #fcbf49;
+  align-items: baseline;
 }
 
 .hero-banner {
-  background-image: url(../images/pexels-nubia-navarro-\(nubikini\)-714912.jpg);
+  background-image: url(../images/pexels-fwstudio-139321.jpg);
   background-size: cover;
   background-position: top;
   height: 200px;
@@ -51,14 +53,16 @@ h1 {
   padding: 30px;
   position: relative;
   top: 50px;
-  left: 300px;
+  left: 376px;
   float: left;
-  color: aliceblue;
+  color: white;
 }
 
 .head-shot {
   position: relative;
   left: 583px;
+  border-radius: 70px;
+  width: auto;
 }
 h1,
 h2,
@@ -73,7 +77,12 @@ p {
   margin: 0;
 }
 .page-section {
+  padding: 30px;
+  color: #3a5a40;
+}
 
+#about p {
+  color: #84a98c;
   padding: 30px;
 }
 
@@ -135,3 +144,17 @@ p {
 .page-wrapper img {
   border: 30px;
 }
+
+.contact {
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  color: #fcbf49;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+
+
